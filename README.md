@@ -13,7 +13,7 @@ implementation does not work.
 1) Wire a 433Mhz RF transmitter and receiver kit to your Raspberry Pi. You can find several instructions on the
 web (e.g. (German) [Click here](http://tutorials-raspberrypi.de/raspberry-pi-funksteckdosen-433-mhz-steuern/)).
 
-![](https://github.com/ChristopherNeuwirth/homebridge-rc433-etekcity/blob/master/docs/raspberry-pi-funksteckdosen_Steckplatine-678x1024.png)
+![](https://raw.githubusercontent.com/ChristopherNeuwirth/homebridge-rc433-etekcity/master/docs/raspberry-pi-funksteckdosen_Steckplatine-678x1024.png)
 
 2) Use wiring-pi and its rf sniffer to record the codes for your switches by launching the programm on your
 Raspberry Pi und controlling the switches by the remote control. Be aware of the fact that there a several
