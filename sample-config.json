@@ -1,0 +1,23 @@
+{
+    "bridge": {
+        "name": "Homebridge",
+        "username": "CC:22:3D:E3:CE:30",
+        "port": 40500,
+        "pin": "133-71-337"
+    },
+
+    "description": "Your Chateau Homebridge",
+
+    "accessories": [
+        {
+          "accessory": "RC433EtekcitySwitch",
+          "name": "Switch One",
+          "id": "01",
+          "pulse": "180",
+          "on": "5566771",
+          "off": "5577660"
+        }
+    ],
+
+    "platforms": []
+}
