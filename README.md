@@ -2,7 +2,7 @@
 
 This Homebridge plugin enables you to control [433mhz Etekcity switchs](https://www.amazon.de/dp/B016I3TZ58/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=3NEM5I6QUP4AR&coliid=I166WF1IKFO0FK) by a Raspberry Pi.
 
-https://raw.githubusercontent.com/ChristopherNeuwirth/homebridge-rc433-etekcity/master/docs/71FyoY6RWWL._SL1500_.jpg
+[Switches]: https://raw.githubusercontent.com/ChristopherNeuwirth/homebridge-rc433-etekcity/master/docs/71FyoY6RWWL._SL1500_.jpg "Etekcity Switches"
 
 The plugin is based on the idea of [FWeinb's rcswitch](https://github.com/FWeinb/homebridge-rcswitch) plugin.
 The Etekcity switches require a pulse length beside its controlling code given, therefore a basic rc433mhz
@@ -11,8 +11,9 @@ implementation does not work.
 ## Setup
 
 1) Wire a 433Mhz RF transmitter and receiver kit to your Raspberry Pi. You can find several instructions on the
-web (e.g. (German) http://tutorials-raspberrypi.de/raspberry-pi-funksteckdosen-433-mhz-steuern/).
-https://github.com/ChristopherNeuwirth/homebridge-rc433-etekcity/blob/master/docs/raspberry-pi-funksteckdosen_Steckplatine-678x1024.png?raw=true
+web (e.g. (German)
+[Raspberry]: http://tutorials-raspberrypi.de/raspberry-pi-funksteckdosen-433-mhz-steuern/).
+https://github.com/ChristopherNeuwirth/homebridge-rc433-etekcity/blob/master/docs/raspberry-pi-funksteckdosen_Steckplatine-678x1024.png?raw=true "Wire your transmitter"
 
 2) Use wiring-pi and its rf sniffer to record the codes for your switches by launching the programm on your
 Raspberry Pi und controlling the switches by the remote control. Be aware of the fact that there a several
