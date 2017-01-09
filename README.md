@@ -16,7 +16,7 @@ web (e.g. (German) [Click here](http://tutorials-raspberrypi.de/raspberry-pi-fun
 ![](https://raw.githubusercontent.com/ChristopherNeuwirth/homebridge-rc433-etekcity/master/docs/raspberry-pi-funksteckdosen_Steckplatine-678x1024.png)
 
 2) Use wiring-pi and its rf sniffer to record the codes for your switches by launching the programm on your
-Raspberry Pi und controlling the switches by the remote control. Be aware of the fact that there a several
+Raspberry Pi and controlling the switches by the remote control. Be aware of the fact that there are several
 implementations of the 433mhz protocol. The Etekcity switches require those which handle the pulse lenght.
 
 3) Follow the intstructions to install [Homebridge](https://github.com/nfarina/homebridge/wiki/Running-HomeBridge-on-a-Raspberry-Pi) on your Raspberry Pi
