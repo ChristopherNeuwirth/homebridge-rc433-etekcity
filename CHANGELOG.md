@@ -1,4 +1,4 @@
 # Changelog
 
-## 1.0.0
-- Basic functionality 
+## 1.0.2
+- Basic functionality
