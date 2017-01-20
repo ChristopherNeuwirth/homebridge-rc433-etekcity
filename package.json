@@ -6,6 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ChristopherNeuwirth/homebridge-rc433-etekcity"
+  },
+  "bugs": {
+    "url": "https://github.com/ChristopherNeuwirth/homebridge-rc433-etekcity/issues"
+  },
   "devDependencies": {},
   "dependencies": {
     "rpi-433": "^2.1.0",
