@@ -1,6 +1,6 @@
 {
   "name": "homebridge-rc433-etekcity",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Homebridge plugin for controlling rc 433mhz switches with custom pulse lenght via iOS devices. ",
   "main": "index.js",
   "scripts": {
