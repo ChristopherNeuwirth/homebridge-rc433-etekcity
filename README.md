@@ -34,4 +34,4 @@ If you are already running homekit with other apps integrate the accessories swi
 and move your config file to the path above.
 
 6) If you want to start homebrige as a service atomaticlly when the Raspberry is turned on copy over
-the file homebridge to `/etc/init.d/` on your Raspberry. The file homebridge assumes that
+the file homebridge to `/etc/init.d/` on your Raspberry.
