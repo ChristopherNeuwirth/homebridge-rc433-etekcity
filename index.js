@@ -51,7 +51,7 @@ class RC433EtekcitySwitch {
       .getCharacteristic(Characteristic.On)
       .on('set', (value, callback) => {
         state = value;
-        var signal;
+        let signal;
         if(state) {
           signal = this.signalOn;
         } else {
@@ -61,7 +61,7 @@ class RC433EtekcitySwitch {
           'signal': signal,
           'callback': callback
         });
-        if (timer == null) {
+        if (timer === null) {
           timer = setTimeout(this.toggleNext, timeout, this);
         }
       });
@@ -75,9 +75,9 @@ class RC433EtekcitySwitch {
 
   toggleNext(switchObject) {
     // get next todo item
-    var todoItem = todoList.shift();
-    var signal = todoItem['signal'];
-    var callback = todoItem['callback'];
+    let todoItem = todoList.shift();
+    let signal = todoItem['signal'];
+    let callback = todoItem['callback'];
     // send signal
     rfEmitter.sendCode(signal, function(error, stdout) {
       if(error) {
